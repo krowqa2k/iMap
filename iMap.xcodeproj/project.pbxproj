@@ -15,6 +15,7 @@
 		84A280C62C29CCC4004139AC /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A280C52C29CCC4004139AC /* LocationsDataService.swift */; };
 		84A280C82C29CF67004139AC /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A280C72C29CF67004139AC /* LocationsView.swift */; };
 		84A280CA2C29D241004139AC /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A280C92C29D241004139AC /* LocationsViewModel.swift */; };
+		84A280CC2C29E491004139AC /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A280CB2C29E491004139AC /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		84A280C52C29CCC4004139AC /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		84A280C72C29CF67004139AC /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		84A280C92C29D241004139AC /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		84A280CB2C29E491004139AC /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				84A280C72C29CF67004139AC /* LocationsView.swift */,
+				84A280CB2C29E491004139AC /* LocationsListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84A280C62C29CCC4004139AC /* LocationsDataService.swift in Sources */,
+				84A280CC2C29E491004139AC /* LocationsListView.swift in Sources */,
 				84A280CA2C29D241004139AC /* LocationsViewModel.swift in Sources */,
 				84A280B22C29CAFD004139AC /* ContentView.swift in Sources */,
 				84A280C82C29CF67004139AC /* LocationsView.swift in Sources */,
