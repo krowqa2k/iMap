@@ -6,16 +6,16 @@
 //
 
 import SwiftUI
+import MapKit
 
 struct LocationsView: View {
     
     @EnvironmentObject private var ViewModel: LocationsViewModel
     
     var body: some View {
-        List {
-            ForEach(ViewModel.locations) {
-                Text($0.name)
-            }
+        ZStack {
+            Map(position: $ViewModel.mapRegion)
+                .ignoresSafeArea()
         }
     }
 }
