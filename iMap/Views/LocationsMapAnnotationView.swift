@@ -30,7 +30,7 @@ struct LocationsMapAnnotationView: View {
                 .frame(width: 10, height: 10)
                 .rotationEffect(Angle(degrees: 180))
                 .offset(y: -2)
-                .padding(.bottom, 40)
+                .padding(.bottom)
         }
     }
 }

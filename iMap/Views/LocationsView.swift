@@ -14,8 +14,6 @@ struct LocationsView: View {
     
     var body: some View {
         ZStack {
-            Map(position: $ViewModel.mapRegion)
-                .ignoresSafeArea()
             Map(position: $ViewModel.mapRegion) {
                 ForEach(ViewModel.locations){ location in
                     Annotation(location.name, coordinate: location.coordinates) {
@@ -74,7 +72,7 @@ extension LocationsView {
                         Image(systemName: "arrow.up" )
                             .font(.headline)
                             .foregroundStyle(.primary)
-                            .padding()
+                            .padding(8)
                             .rotationEffect(Angle(degrees: ViewModel.showLocationsList ? 180 : 0))
                     }
             })
