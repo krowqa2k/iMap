@@ -10,6 +10,7 @@ import SwiftUI
 struct LocationPreviewView: View {
     
     @EnvironmentObject private var ViewModel: LocationsViewModel
+    @State var sheetPreseted: Bool = false
     let location: Location
     
     var body: some View {
@@ -75,13 +76,17 @@ extension LocationPreviewView {
     
     private var learnMoreButton: some View {
         Button(action: {
-            
+            sheetPreseted.toggle()
         }, label: {
             Text("Learn more")
                 .font(.headline)
                 .frame(width: 125, height: 35)
         })
         .buttonStyle(BorderedProminentButtonStyle())
+        .sheet(isPresented: $sheetPreseted, content: {
+            DetailsView(location: ViewModel.mapLocation)
+                .presentationDetents([.fraction(0.99)])
+        })
     }
     
     private var nextButton: some View {
