@@ -64,8 +64,8 @@ extension LocationsView {
         VStack {
             Button(action: { ViewModel.toggleLocationsList() }, label: {
                 Text(ViewModel.mapLocation.name + ", " + ViewModel.mapLocation.cityName)
-                    .font(.title2)
-                    .fontWeight(.black)
+                    .font(.title3)
+                    .fontWeight(.semibold)
                     .foregroundStyle(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
@@ -73,7 +73,7 @@ extension LocationsView {
                     .overlay(alignment: .leading) {
                         Image(systemName: "arrow.up" )
                             .font(.headline)
-                            .foregroundStyle(.black)
+                            .foregroundStyle(.primary)
                             .padding()
                             .rotationEffect(Angle(degrees: ViewModel.showLocationsList ? 180 : 0))
                     }
