@@ -66,7 +66,7 @@ extension LocationsView {
                 Text(ViewModel.mapLocation.name + ", " + ViewModel.mapLocation.cityName)
                     .font(.title2)
                     .fontWeight(.black)
-                    .foregroundStyle(.black)
+                    .foregroundStyle(.primary)
                     .frame(height: 55)
                     .frame(maxWidth: .infinity)
                     .animation(.none, value: ViewModel.mapLocation)
