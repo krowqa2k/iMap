@@ -75,7 +75,7 @@ extension DetailsView {
     
     private var descriptionSection: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text(location.description)
+            Text(location.description_en)
                 .font(.subheadline)
                 .foregroundStyle(.secondary)
             

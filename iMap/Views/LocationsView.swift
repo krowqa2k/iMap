@@ -61,7 +61,7 @@ extension LocationsView {
     private var header: some View {
         VStack {
             Button(action: { ViewModel.toggleLocationsList() }, label: {
-                Text(ViewModel.mapLocation.name + ", " + ViewModel.mapLocation.cityName)
+                Text(ViewModel.mapLocation.name)
                     .font(.title3)
                     .fontWeight(.semibold)
                     .foregroundStyle(.primary)

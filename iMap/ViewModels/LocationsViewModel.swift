@@ -23,7 +23,7 @@ class LocationsViewModel: ObservableObject {
     
     // Current region on map
     @Published var mapRegion: MapCameraPosition
-    let mapSpan = MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+    let mapSpan = MKCoordinateSpan(latitudeDelta: 0.03, longitudeDelta: 0.03)
     
     // Show list of locations
     @Published var showLocationsList: Bool = false

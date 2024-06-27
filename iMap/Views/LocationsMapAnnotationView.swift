@@ -13,13 +13,13 @@ struct LocationsMapAnnotationView: View {
     
     var body: some View {
         VStack(spacing: 0){
-            Image(systemName: "map.circle.fill")
+            Image(systemName: "binoculars.circle.fill")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 30, height: 30)
                 .font(.headline)
                 .foregroundStyle(.white)
-                .padding(6)
+                .padding(2)
                 .background(accentColor)
                 .cornerRadius(36)
             
