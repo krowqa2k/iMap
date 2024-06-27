@@ -12,8 +12,8 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         Location(
-            name: "Rynek we Wrocławiu",
-            cityName: "Wrocław",
+            name: "Wrocław Market Square",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1091, longitude: 17.0326),
             description: "Rynek we Wrocławiu jest jednym z największych rynków miejskich w Europie i stanowi serce miasta, pełne zabytków, restauracji i kawiarni.",
             description_en: "The Wrocław Market Square is one of the largest city squares in Europe and the heart of the city, full of monuments, restaurants, and cafes.",
@@ -24,8 +24,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Rynek_we_Wrocławiu"),
         Location(
-            name: "Panorama Racławicka",
-            cityName: "Wrocław",
+            name: "Racławice Panorama",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1108, longitude: 17.0481),
             description: "Panorama Racławicka to monumentalne dzieło sztuki, które przedstawia bitwę pod Racławicami. Jest to jedno z najważniejszych muzeów we Wrocławiu.",
             description_en: "The Racławice Panorama is a monumental work of art depicting the Battle of Racławice. It is one of the most important museums in Wrocław.",
@@ -37,7 +37,7 @@ class LocationsDataService {
             link: "https://pl.wikipedia.org/wiki/Panorama_Racławicka"),
         Location(
             name: "Ostrów Tumski",
-            cityName: "Wrocław",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1142, longitude: 17.0465),
             description: "Ostrów Tumski to najstarsza część Wrocławia, znana z pięknych katedr i zabytkowych budowli. Jest to również miejsce o dużym znaczeniu historycznym i religijnym.",
             description_en: "Ostrów Tumski is the oldest part of Wrocław, known for its beautiful cathedrals and historic buildings. It is also a place of great historical and religious significance.",
@@ -48,8 +48,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Ostrów_Tumski_(Wrocław)"),
         Location(
-            name: "Hala Stulecia",
-            cityName: "Wrocław",
+            name: "Centennial Hall",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1066, longitude: 17.0775),
             description: "Hala Stulecia to jedno z najważniejszych osiągnięć architektury XX wieku. Znajduje się na Liście Światowego Dziedzictwa UNESCO i jest miejscem wielu wydarzeń kulturalnych.",
             description_en: "The Centennial Hall is one of the most important achievements of 20th-century architecture. It is a UNESCO World Heritage Site and a venue for many cultural events.",
@@ -60,8 +60,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Hala_Stulecia"),
         Location(
-            name: "Zoo Wrocławskie i Afrykarium",
-            cityName: "Wrocław",
+            name: "Wrocław Zoo",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1047, longitude: 17.0758),
             description: "Zoo Wrocławskie to jedno z najstarszych ogrodów zoologicznych w Polsce, a Afrykarium to jedyny na świecie kompleks poświęcony faunie Afryki.",
             description_en: "Wrocław Zoo is one of the oldest zoos in Poland, and the Afrykarium is the only complex in the world dedicated to African fauna.",
@@ -72,8 +72,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Zoo_Wrocławskie"),
         Location(
-            name: "Uniwersytet Wrocławski",
-            cityName: "Wrocław",
+            name: "University of Wrocław",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1141, longitude: 17.0364),
             description: "Uniwersytet Wrocławski jest jednym z najstarszych uniwersytetów w Europie Środkowej. Znany jest z pięknej barokowej auli Leopoldina.",
             description_en: "The University of Wrocław is one of the oldest universities in Central Europe. It is known for its beautiful Baroque Leopoldina Hall.",
@@ -84,8 +84,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Uniwersytet_Wrocławski"),
         Location(
-            name: "Ogród Japoński",
-            cityName: "Wrocław",
+            name: "Japanese Garden",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1052, longitude: 17.0794),
             description: "Ogród Japoński to jedno z najbardziej malowniczych miejsc we Wrocławiu, znajdujące się w Parku Szczytnickim. Zapewnia wyjątkową atmosferę spokoju i harmonii.",
             description_en: "The Japanese Garden is one of the most picturesque places in Wrocław, located in Szczytnicki Park. It offers a unique atmosphere of peace and harmony.",
@@ -97,7 +97,7 @@ class LocationsDataService {
             link: "https://pl.wikipedia.org/wiki/Ogród_Japoński_we_Wrocławiu"),
         Location(
             name: "Sky Tower",
-            cityName: "Wrocław",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.0953, longitude: 17.0243),
             description: "Sky Tower to najwyższy budynek we Wrocławiu, oferujący panoramiczne widoki na miasto z punktu widokowego znajdującego się na jego szczycie.",
             description_en: "Sky Tower is the tallest building in Wrocław, offering panoramic views of the city from its observation deck.",
@@ -109,7 +109,7 @@ class LocationsDataService {
             link: "https://pl.wikipedia.org/wiki/Sky_Tower"),
         Location(
             name: "Hydropolis",
-            cityName: "Wrocław",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1027, longitude: 17.0504),
             description: "Hydropolis to centrum nauki i wiedzy o wodzie, które oferuje interaktywne wystawy na temat wody w różnych aspektach.",
             description_en: "Hydropolis is a science and knowledge center about water, offering interactive exhibits on various aspects of water.",
@@ -120,8 +120,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Hydropolis"),
         Location(
-            name: "Most Grunwaldzki",
-            cityName: "Wrocław",
+            name: "Grunwald Bridge",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1096, longitude: 17.0485),
             description: "Most Grunwaldzki to jeden z najbardziej rozpoznawalnych mostów we Wrocławiu, łączący centrum miasta z osiedlem Dąbie.",
             description_en: "The Grunwald Bridge is one of the most recognizable bridges in Wrocław, connecting the city center with the Dąbie district.",
@@ -132,8 +132,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Most_Grunwaldzki_(Wrocław)"),
         Location(
-            name: "Opera Wrocławska",
-            cityName: "Wrocław",
+            name: "Wrocław Opera",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1034, longitude: 17.0328),
             description: "Opera Wrocławska to jedno z najważniejszych miejsc kulturalnych we Wrocławiu, oferujące szeroki repertuar oper, baletów i koncertów.",
             description_en: "The Wrocław Opera is one of the most important cultural venues in Wrocław, offering a wide repertoire of operas, ballets, and concerts.",
@@ -144,8 +144,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Opera_Wrocławska"),
         Location(
-            name: "Muzeum Architektury",
-            cityName: "Wrocław",
+            name: "Museum of Architecture",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1082, longitude: 17.0431),
             description: "Muzeum Architektury we Wrocławiu to jedyne takie muzeum w Polsce, poświęcone historii i rozwoju architektury.",
             description_en: "The Museum of Architecture in Wrocław is the only museum of its kind in Poland, dedicated to the history and development of architecture.",
@@ -156,8 +156,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Muzeum_Architektury_we_Wrocławiu"),
         Location(
-            name: "Kościół św. Elżbiety",
-            cityName: "Wrocław",
+            name: "St. Elizabeth's Church",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1123, longitude: 17.0301),
             description: "Kościół św. Elżbiety to gotycka bazylika we Wrocławiu, która oferuje niesamowite widoki na miasto z wieży widokowej.",
             description_en: "St. Elizabeth's Church is a Gothic basilica in Wrocław, offering incredible views of the city from its observation tower.",
@@ -168,8 +168,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Bazylika_św._Elżbiety_(Wrocław)"),
         Location(
-            name: "Hala Targowa",
-            cityName: "Wrocław",
+            name: "The Market Hall",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1131, longitude: 17.0415),
             description: "Hala Targowa we Wrocławiu to zabytkowy budynek, który pełni funkcję tradycyjnego targowiska, oferując szeroki wybór lokalnych produktów.",
             description_en: "The Market Hall in Wrocław is a historic building serving as a traditional market, offering a wide selection of local products.",
@@ -180,8 +180,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Hala_Targowa_(Wrocław)"),
         Location(
-            name: "Park Szczytnicki",
-            cityName: "Wrocław",
+            name: "Szczytnicki Park",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1099, longitude: 17.0773),
             description: "Park Szczytnicki to jeden z najstarszych i największych parków we Wrocławiu, idealne miejsce na relaks i spacery wśród zieleni.",
             description_en: "Szczytnicki Park is one of the oldest and largest parks in Wrocław, an ideal place for relaxation and walks among greenery.",
@@ -192,8 +192,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Park_Szczytnicki"),
         Location(
-            name: "Fontanna Multimedialna",
-            cityName: "Wrocław",
+            name: "Multimedia Fountain",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1066, longitude: 17.0776),
             description: "Fontanna Multimedialna przy Hali Stulecia to atrakcja, która oferuje spektakularne pokazy światła i dźwięku, przyciągające zarówno mieszkańców, jak i turystów.",
             description_en: "The Multimedia Fountain near the Centennial Hall is an attraction offering spectacular light and sound shows, attracting both residents and tourists.",
@@ -204,8 +204,8 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Fontanna_multimedialna_przy_Hali_Stulecia"),
         Location(
-            name: "Muzeum Narodowe we Wrocławiu",
-            cityName: "Wrocław",
+            name: "National Museum",
+            cityName: "Wroclaw",
             coordinates: CLLocationCoordinate2D(latitude: 51.1080, longitude: 17.0488),
             description: "Muzeum Narodowe we Wrocławiu to jedna z największych instytucji kulturalnych w Polsce, oferująca bogate zbiory sztuki i kultury.",
             description_en: "The National Museum in Wrocław is one of the largest cultural institutions in Poland, offering rich collections of art and culture.",
@@ -216,17 +216,17 @@ class LocationsDataService {
             ],
             link: "https://pl.wikipedia.org/wiki/Muzeum_Narodowe_we_Wrocławiu"),
         Location(
-                    name: "Stadion Wrocław",
-                    cityName: "Wrocław",
-                    coordinates: CLLocationCoordinate2D(latitude: 51.1389, longitude: 16.9689),
-                    description: "Stadion Miejski we Wrocławiu, znany również jako Stadion Wrocław, jest jednym z najnowocześniejszych stadionów piłkarskich w Polsce. Został otwarty w 2011 roku i jest domowym stadionem Śląska Wrocław.",
-                    description_en: "The Municipal Stadium in Wrocław, also known as Stadion Wrocław, is one of the most modern football stadiums in Poland. It was opened in 2011 and serves as the home stadium of Śląsk Wrocław.",
-                    imageNames: [
+            name: "Wroclaw Stadium",
+            cityName: "Wroclaw",
+            coordinates: CLLocationCoordinate2D(latitude: 51.1389, longitude: 16.9689),
+            description: "Stadion Miejski we Wrocławiu, znany również jako Stadion Wrocław, jest jednym z najnowocześniejszych stadionów piłkarskich w Polsce. Został otwarty w 2011 roku i jest domowym stadionem Śląska Wrocław.",
+            description_en: "The Municipal Stadium in Wrocław, also known as Stadion Wrocław, is one of the most modern football stadiums in Poland. It was opened in 2011 and serves as the home stadium of Śląsk Wrocław.",
+            imageNames: [
                         "wroclaw-stadion-1",
                         "wroclaw-stadion-2",
                         "wroclaw-stadion-3",
                     ],
-                    link: "https://pl.wikipedia.org/wiki/Stadion_Miejski_we_Wrocławiu")
+            link: "https://pl.wikipedia.org/wiki/Stadion_Miejski_we_Wrocławiu")
             ]
     
 }
