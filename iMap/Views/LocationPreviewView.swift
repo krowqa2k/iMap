@@ -57,7 +57,7 @@ extension LocationPreviewView {
                     .cornerRadius(10)
             }
         }
-        .padding(6)
+        .padding(2)
         .background(Color.white)
         .cornerRadius(10)
     }
@@ -95,9 +95,11 @@ extension LocationPreviewView {
         }, label: {
             Text("Next")
                 .font(.headline)
+                .fontWeight(.bold)
                 .frame(width: 125, height: 35)
         })
         .buttonStyle(BorderedButtonStyle())
+        .opacity(1)
     }
     
     private var previousButton: some View {
@@ -106,8 +108,10 @@ extension LocationPreviewView {
         }, label: {
             Text("Previous")
                 .font(.headline)
+                .fontWeight(.bold)
                 .frame(width: 125, height: 35)
         })
         .buttonStyle(BorderedButtonStyle())
+        .opacity(1)
     }
 }
